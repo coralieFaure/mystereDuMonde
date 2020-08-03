@@ -1,0 +1,289 @@
+h1 /* Mise en forme du Titre principal du site pour cela on se sert du nom de la balise concernée soit <h3> */
+{
+    font-size: 120px;  /* Taille du texte */
+    font-family: Arial, Comic Sans Ms, Serif; /* Police du texte qui est Arial, si elle ne fonctionne pas ça sera Comic sans Ms, si aucun fonctionne ce sera Serif par défaut */
+    color: rgb(122, 0, 0); /* couleur du texte est rouge */
+    text-align: center; /* Alignement du texte centré */ 
+    margin-bottom: -10px; /* Marge extérieure, marge du dessous est à - 10 pixels */
+    margin-top: -10px; /* Marge extérieure, marge du dessus est à -10 pixels */
+ }
+
+nav ul /* Mise en forme de la balise <ul> qui se trouve dans la balise <nav> */
+{
+    display: flex; /* Les blocs de la flexbox se placent par défaut côte à côte */
+    list-style: none; /* les puces de navigations sont enlevées */
+    border: inset; /* une bordure est insérée avec effet 3D */
+    margin-top: 20px; /* Marge du dessus est à 20 pixels */
+    justify-content: space-around; /* Les blocs sont centrer */
+    border-color: rgb(122, 0, 0);
+
+}
+
+nav li /* Mise en forme du texte de la balise <li> qui se trouve dans la balise <nav> */
+{
+	margin-right: 50px; /* Marge droite à 50 pixels */
+	font-size: x-large; /* Taille du texte est très large */
+}
+
+header /* Mise en forme du texte de la balise <header> qui est l'en tête de la page */
+{
+    background-image: url("../img/mystères.jpg"); /* le fond d'écran de l'en tête est une photo */
+}
+
+body /* mise en forme du texte de la balise <body> qui est le corps de texte */
+{
+	background-color: rgb(0, 66, 98); /* le fond d'écran du corps de texte est bleu foncé */
+}
+
+a /* mise en forme du texte de la balise <a> qui sont les liens */
+{
+	color: rgb(80, 0, 0); /* la couleur des liens est rouge foncé */
+	font-size: 26px; /* la taille des liens est de 26 pixels */
+	text-decoration: none /* Suppression du soulignement */
+}
+
+.Liens /* Mise en page de l'attribut Liens (class="Liens") */
+{
+	color: white; /* Couleur du texte blanc */
+}
+
+.intro /* Mise en page de l'attribut intro (class="intro") */
+{
+	color: white; /* couleur du texte est blanc */
+	font-weight: bold; /* Le texte est en gras*/
+	text-align: justify; /* Le texte est justifié */
+	font-size: x-large; /* Taille du texte très large */
+	margin-left: 200px; /* Marge gauche à 200 pixels */
+	margin-right: 200px; /* Marge droite à 200 pixels */
+	margin-bottom: 50px; /* Marge du dessous à 50 pixels */
+	margin-top: 50px; /* Marge du dessus à 50 pixels */
+}
+
+h2 /* Mise en page de la balise <h2> */
+{
+	font-size: 50px; /* Taille du texte à 50 pixels */
+	text-align: center; /* le texte est centré */
+	color: rgb(80, 0, 0); /* couleur du texte rouge */
+	margin-bottom: 50px; /* marge extérieur de dessous est à 50 pixels */
+}
+
+.descriptif /* Mise en forme de l'attribut descriptif (class="descriptif") */
+{
+	color: white; /* couleur du texte blanc */
+	font-weight: bold; /* le texte est gras */
+	text-align: justify; /* le texte est justifié */
+	font-size: x-large; /* le texte est de taille très large */
+	margin-left: 200px; /* marge extérieur de gauche est de 200 pixels */
+	margin-right: 200px; /* marge extérieur de droite est de 200 pixels */
+	margin-bottom: 50px; /* marge extérieur de dessous est de 50 pixels */
+	margin-top: 50px; /* marge extérieur de dessus est de 50 pixels */
+}
+
+.pied_de_page /* Mise en forme de l'attribut pied de page (class="pied de page") */
+{
+	text-align: center; /* alignement du texte centrer */
+	border: inset; /* bordure en 3d */
+	margin-top: 100px; /* marge intérieure du dessus est de 100 pixels */
+	border-color: rgb(122, 0, 0); /* couleur de la bordure rouge */
+	color: white; /* couleur du texte blanche */
+}
+
+h3 /* Mise en page de la balise <h3> */
+{
+	font-size: x-large; /* taille du texte très large */
+	text-align: left; /* alignement du texte à gauche */
+	margin-top: 100px; /* Marge intérieure du dessus est de 100 pixels */
+	margin-bottom: 10px; /* Marge intérieure du dessous est de 10 pixels */
+}
+
+.Titre /* Mise en forme de l'attribut Titre (class="Titre") sur la balise <h3> dans la page disparition */
+{
+	text-align: left; /* Alignement de texte à gauche */
+	margin-left: 60px; /* Marge intérieure de gauche est à 60 pixels */
+	padding-bottom: 20px; /* Marge extérieure de gauche est à 20 pixels */
+}
+
+.disparue /* Mise en forme de l'attribut disparue (class="disparue") sur la balise <p> dans la page disparition */
+{
+	width: 90%; /* Taille du bloc disparue est de 90% */
+    height: 50%; /* hauteur du bloc disparue est de 50% */
+    margin-top: 30px; /* Marge extérieure du dessus est de 30 pixels */
+    text-align: left; /* Texte aligné à gauche */
+    margin-left: 60px; /* marge extérieure gauche est de 60 pixels */
+}
+
+article /* Mise en forme de la balise <article> */
+{
+	font-size: 20px; /* taille du texte de 20 pixels */
+	color: rgb(233, 233, 233); /* couleur du texte blanc */
+}
+
+.imageflottante /* Mise en forme de l'attribut imageflottante (class="imageflottante") sur la balise <img> dans la page disparition pour l'article de Maura */
+{
+	float: right; /* L'image flotte à droite du texte */
+}
+
+.imageflottante2 /* Mise en forme de l'attribut imageflottante (class="imageflottante") sur la balise <img> dans la page disparition pour l'article de Marilyn */
+{
+	float: right; /* L'image flotte à droite du texte */
+	clear: both; /*  */
+}
+
+.img /* Mise en forme de l'attribut img (class="img") sur la balise <img> dans la page historique */
+{
+	margin-left: 50px; /* Marge extérieure gauche est de 50 pixels */
+	margin-right: 250px; /* Marge extérieure droite est de 250 pixels */
+	margin-top: 40px; /* Marge extérieure du dessus est de 40 pixels */
+	margin-bottom: 15px; /* Marge extérieure du dessous est de 15 pixels */
+}
+
+.Titre1 /* Mise en forme de l'attribut Titre1 (class="Titre1") sur la balise <h3> dans la page historique */
+{
+	text-align: center; /* Texte alignée au centre */
+	margin-top: 10px; /* Marge extérieure du dessus est de 10 pixels */
+}
+
+.histoire /* Mise en forme de l'attribut histoire (class="histoire") sur la balise <p> dans la page historique */
+{
+    display: block; /*  */
+    margin-right: auto; /* Marge extérieure de droite est en automatique */
+    margin-left: auto; /* Marge extérieure de gauche est en automatique */
+	width: 80%; /*  */
+	margin-top: 35px; /* Marge extérieure du dessus est de 35 pixels */
+	margin-bottom: 100px; /* Marge extérieures du dessous est de 100 pixels */
+}
+
+.imageflottante3 /* Mise en forme de l'attribut imageflottante3 (class="imageflottante3") sur la balise <img> dans la page paranormal */
+{
+    float: left; /* L'image flotte à gauche */
+    clear: left; /*  */
+    padding-right: 30px; /* Marge intérieure de droite est de 30 pixels */
+    padding-top: 60px; /* Marge intérieure du dessus est de 60 pixels */
+    margin-left: 150px; /* Marge extérieure de gauche est de 150 pixels */
+}
+
+.Paranormal /* Mise en forme de l'attribut Paranormal (class="Paranormal") sur la balise <p> dans la page paranormal */
+{
+	width: 85%;	/*  */
+	padding-top: 50px; /* Marge intérieure du dessus estde 50 pixels */
+}
+
+.Titre2 /* Mise en forme de l'attribut Titre2 (class="Titre2") sur la balise <h3> dans la page paranormal */
+{
+	text-align: center; /* Texte aligné sur le centre */
+}
+
+.imageflottante4
+{
+	float: left;
+	margin-left: 300px;
+	padding-right: 50px;
+	margin-top: 10px;
+}
+
+.Legendes
+{
+	margin-right: 280px;
+	margin-top: 70px;
+	width: 80%;
+	margin-bottom: 100px;
+}
+
+.Titre3
+{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.Creepy
+{
+	width: 85%;	
+	text-align: left;
+	padding-top: 25px;
+	margin-left: 150px;
+	margin-bottom: 200px;
+}
+
+.imageflottante5
+{
+	float: right;
+	padding-right: 250px;
+}
+
+.Titre4
+{
+	text-align: left;
+	margin-bottom: 40px;
+	margin-left: 150px;
+}
+
+.Crimes
+{
+	text-align: center;
+}
+
+.Titre5
+{
+	text-align: center;
+}
+
+.Candle
+{
+	text-align: center;
+	margin-top: 20px;
+	width: 20%;
+	font-weight: bold;
+}
+
+.Cove
+{
+	width: 65%;
+	margin-left: 150px;
+	margin-top: 80px;
+	padding: 25px;
+	background-image: url(candlecove3.jpg);
+}
+
+.corps2
+{
+	background-color: rgb(22, 22, 22);
+}
+
+.histoires
+{
+	color: rgb(122, 0, 0);
+}
+
+.retour
+{
+	color: rgb(140, 0, 0);
+}
+
+.img
+{
+	margin-left: 450px;
+}
+
+.histoires2
+{
+	text-align: left;
+	text-align: justify;
+	width: 65%;
+	margin-left: 150px;
+	margin-top: 80px;
+	padding: 25px;
+}
+
+.Murray
+{
+	padding-bottom: 40px;
+	font-size: 30px;
+
+}
+
+.navigation
+{
+	text-align: left;
+	margin: 30px;
+}
